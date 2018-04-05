@@ -35,7 +35,7 @@ bool check(const std::vector< std::vector<char> >& vec)
     else if ((vec[0][0] == 'O' && vec[1][1] == 'O' && vec[2][2] == 'O')
              || (vec[0][2] == 'O' && vec[1][1] == 'O' && vec[2][0] == 'O'))
              {
-                std::cout << "Player Y won this game\n";
+                std::cout << "Player O won this game\n";
                 return true;
              }
 
